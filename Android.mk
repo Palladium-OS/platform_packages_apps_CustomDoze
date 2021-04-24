@@ -12,11 +12,7 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRIVATE_PLATFORM_APIS := true
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    VendorSupport-preference \
-    airbnb-lottie
-
-LOCAL_STATIC_JAVA_LIBRARIES := \
-    airbnb-lottie
+    VendorSupport-preference
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
